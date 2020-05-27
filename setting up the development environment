@@ -1,0 +1,22 @@
+Setting up a Development Environment
+
+For other IDE users :
+
+This document describes getting the source from keystone’s Git Repository and setting the environment up for development purposes.
+To install keystone from packaging, refer instead to OpenStack’s User Documentation.
+Prerequisites
+
+download git from here : https://git-scm.com/downloads
+
+This document assumes you are using an Ubuntu, Fedora, or openSUSE platform and that you have the following tools pre-installed on your system:
+Python 2.7 and 3.4, as the programming language;
+git, as the version control tool;
+Reminder: If you are successfully using a different platform, or a different version of the above, please document your configuration here!
+Getting the latest code
+Make a clone of the code from our git repository and enter the directory:
+      $ git clone https://github.com/SmartPracticeschool/llSPS-INT-2166-Predicting-Life-Expectancy-using-Machine-Learning.git
+      $ cd < will be updated after uploading the code>
+
+For jupyter note book users : 
+installing the jupytrt note book :
+        https://jupyter.readthedocs.io/en/latest/install.html
