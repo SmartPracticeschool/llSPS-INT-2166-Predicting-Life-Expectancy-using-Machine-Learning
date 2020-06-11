@@ -1,10 +1,24 @@
 Setting up a Development Environment
 
-For other IDE users :
-
-This document describes getting the source from keystone’s Git Repository and setting the environment up for development purposes.
-To install keystone from packaging, refer instead to OpenStack’s User Documentation.
+This document describes setting the environment up for development purposes.
+To install keystone from packaging, refer instead to  Documentation.
 Prerequisites
+### For Anaconda users : 
+Download Anaconda : https://www.anaconda.com/download/
+Install Anaconda & Python
+Start and Update Anaconda :   conda update conda
+                              conda update --all
+Create an Anaconda Environment : conda create -n tensorflow pip python=3.6
+start jupyter notebook and write your code.
+### installing the required python packages :
+eg : conda install pandas
+pandas 
+numpy
+sklearn
+math
+matplotlib
+seaborn
+warnings
 
 download git from here : https://git-scm.com/downloads
 
@@ -15,17 +29,7 @@ Reminder: If you are successfully using a different platform, or a different ver
 Getting the latest code
 Make a clone of the code from our git repository and enter the directory:
       $ git clone https://github.com/SmartPracticeschool/llSPS-INT-2166-Predicting-Life-Expectancy-using-Machine-Learning.git
-      $ cd < will be updated after uploading the code>
+      $ cd llSPS-INT-2166-Predicting-Life-Expectancy-using-Machine-Learning
 
-For jupyter note book users : 
-installing the jupytrt note book :
-        https://jupyter.readthedocs.io/en/latest/install.html
+open LifeExpectancy.ipynb for project source code.
 
-### installing the required python packages 
-pandas 
-numpy
-sklearn
-math
-matplotlib
-seaborn
-warnings
