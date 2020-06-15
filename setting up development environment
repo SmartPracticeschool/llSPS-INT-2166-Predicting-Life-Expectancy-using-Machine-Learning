@@ -20,16 +20,8 @@ matplotlib
 seaborn
 warnings
 
+than import your dataset into workspace and start your ML regression project.
 download git from here : https://git-scm.com/downloads
-
-This document assumes you are using an Ubuntu, Fedora, or openSUSE platform and that you have the following tools pre-installed on your system:
-Python 2.7 and 3.4, as the programming language;
-git, as the version control tool;
-Reminder: If you are successfully using a different platform, or a different version of the above, please document your configuration here!
-Getting the latest code
-Make a clone of the code from our git repository and enter the directory:
-      $ git clone https://github.com/SmartPracticeschool/llSPS-INT-2166-Predicting-Life-Expectancy-using-Machine-Learning.git
-      $ cd llSPS-INT-2166-Predicting-Life-Expectancy-using-Machine-Learning
 
 open LifeExpectancy.ipynb for project source code.
 
